@@ -21,7 +21,7 @@ namespace projedeneme1.sınıflar.siniflar
         public DataTable DoktorlariListele()
         {
             SqlCommand cmd = new SqlCommand();
-            cmd.CommandText = "Select * from Doktorlar";
+            cmd.CommandText = "Selectd * from Doktorlar";
             return executereadercalistir(cmd);
 
         }
